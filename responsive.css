@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1204px) 
+{
+	#write
+	{
+		top:160px;
+	} 
+
+	#write h1
+	{
+		font-size:100px;
+	}
+	
+	.info
+	{
+		padding:20px;
+	}
+	
+	.card
+	{
+		margin:19px !important;
+	}
+	
+	#main
+	{
+		padding:1px;
+	}
+}
+
+
+@media only screen and (max-width: 766px)
+{	
+	.info h6
+	{
+		padding:20px;
+		font-size:110%;
+	}
+	
+	.info h5
+	{
+		font-size:30px;
+	}
+	
+	.card-title
+	{
+		font-size:40px;
+	}
+	
+	.col-md-3
+	{
+		width:50% !important;
+	}
+}
+
+
+@media only screen and (max-width: 780px) 
+{
+	#write
+	{
+		top:170px;
+	} 
+
+	#write h1
+	{
+		font-size:80px;
+	}
+
+	#sub-header a
+	{
+		display:none;
+	}
+}
