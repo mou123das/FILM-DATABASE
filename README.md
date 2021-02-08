@@ -8,3 +8,6 @@ This is a Film-database web app which lets you view a list of movies.🎥🎬�
 🔸 This project was made for Scrimba's Weekly Web Dev Challenge! <br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Topic: The Weekly Web Dev Challenge: Film Database 📽
 
+# Further-Scope:
+I plan to add more functionality to this project, so as to make it more dynamic.
+
