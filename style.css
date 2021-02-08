@@ -1,0 +1,188 @@
+*{
+  text-align:center;
+  font-family:Times;
+}
+
+#header
+{
+	width:100wh;
+	height:650px;
+	background:linear-gradient(rgba(0,0,0,0.1),#212122),url(Images/back1.jpg);
+	background-size:cover;
+}
+
+#sub-header
+{
+	display:flex;
+	flex-flow:column wrap;
+	justify-content: space-around;
+}
+
+#write
+{
+	position: relative;
+	color:white;
+	margin:20px;
+	top:221px;
+	z-index:4;
+	align-self: center;
+	text-align: center;
+}
+
+#sub-header a
+{
+	position:relative;
+	align-self: center;
+	top:200px;
+    padding-top:30px;
+	text-decoration:none;
+	color:white;
+	background:transparent;
+	animation: icon 0.9s ease-in-out infinite;
+}
+
+@keyframes icon
+{
+	0%{
+		top:200px;
+		color:white;
+	}
+	
+	25%{
+		top:205px;
+		color:#F5F5F5;
+	}
+	
+	50%{
+		top:210px;
+		color:#EEEEEE;
+	}
+	
+	100%{
+		top:215px;
+		color:#9E9E9E;
+	}
+}
+
+#write h1
+{
+	font-size:120px;
+	background:linear-gradient(-45deg,#18FFFF,#BBDEFB,#90CAF9,#1E88E5);
+	background-clip:text;
+	color:transparent;
+	-webkit-background-clip:text;
+	font-weight:900;
+}
+
+#write h4
+{
+	font-size:40px;
+	background:linear-gradient(45deg,#F9A825,#FFECB3,#FFF9C4,#FFF59D,#FBC02D);
+	background-clip:text;
+	color:transparent;
+	-webkit-background-clip:text;
+	font-weight:900;
+	letter-spacing:0.2em;
+}
+
+.card-deck
+{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:center;	
+}
+
+.row,.card-deck,.col-md-3,.card
+{
+	margin:0px !important;
+	padding:0px !important;
+}
+
+
+#main
+{
+	padding:67px;
+	background:#3F51B5;
+	animation: back 16s ease-in-out infinite;
+}
+
+@keyframes back
+{
+	0%{
+		background:#3F51B5;
+	}
+	
+	20%{
+		background:#536DFE;
+	}
+	
+	34%{
+		background:#7C4DFF;
+	}
+	
+	45%{
+		background:#7B1FA2;
+	}
+	
+	58%{
+		background:#880E4F;
+	}
+	
+	69%{
+		background:#EC407A;
+	}
+	
+	75%{
+		background:#CE93D8;
+	}
+	
+	85%{
+		background:#9C27B0;
+	}
+	
+	100%{
+		background:#673AB7;
+	}
+}
+
+.card
+{
+	margin:30px !important;
+	border-radius: 8px;
+	background: linear-gradient(315deg, #e1dddd, #ffffff);
+	box-shadow:  -12px -12px 48px #bebaba,12px 12px 48px #ffffff;
+}
+
+.card-title
+{
+	font-family: 'Roboto';
+	letter-spacing:0.1em;
+}
+
+.info
+{
+	position:absolute;
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+	justify-content:center;
+	padding:45px;
+	top:0;
+	left:0;	
+	background:rgba(60,40,0,0.7);
+    color:white;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition:opacity 0.4s;
+}
+
+.info h6
+{
+	font-size:17px;
+}
+	
+.info:hover
+{
+	opacity:1;
+}
